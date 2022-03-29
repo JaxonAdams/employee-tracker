@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A content management system for an employee database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaxonAdams/employee-tracker.git"
+  },
+  "author": "Jaxon Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaxonAdams/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/JaxonAdams/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.3",
+    "inquirer": "^8.2.2",
+    "mysql2": "^2.3.3"
+  }
+}
