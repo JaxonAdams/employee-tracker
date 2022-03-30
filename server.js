@@ -1,5 +1,6 @@
 const express = require('express');
 const db = require('./db/connection');
+const apiRoutes = require('./routes/apiRoutes');
 
 // Define port
 const PORT = process.env.PORT || 3001;
@@ -10,6 +11,9 @@ const app = express();
 // Required Express Middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+
+// Use api routes
+app.use('/api', apiRoutes);
 
 // Default request response
 app.use((req, res) => {
