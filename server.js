@@ -1,3 +1,5 @@
+// NOTE: I don't think I need a server for this; keeping the file just in case.
+
 const express = require('express');
 const db = require('./db/connection');
 const apiRoutes = require('./routes/apiRoutes');
