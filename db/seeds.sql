@@ -1,5 +1,9 @@
 INSERT INTO department (name)
-    VALUES
+VALUES
     ('human_resources'),
     ('sales'),
-    ('accounting')
+    ('accounting');
+INSERT INTO roles (title, salary, department_id)
+VALUES
+    ('salesman', 50, 2),
+    ('accountant', 60, 3);
