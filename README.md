@@ -15,7 +15,9 @@ This is a content management system run on the command line. It utilizes a MySQL
     
 
 ## Installation
-First, make sure you have installed NodeJS from the [official website](https://nodejs.org). You will also need MySQL. Once you have these, clone the repository. Using the command line in the root of the repository, run the command 'npm i' to install the necessary dependencies. If you made it this far, you're all set! Watch the following video for a tutorial on installation and usage:
+First, make sure you have installed NodeJS from the [official website](https://nodejs.org). You will also need MySQL. Once you have these, clone the repository. Using the command line in the root of the repository, run the command 'npm i' to install the necessary dependencies. If you made it this far, you're all set! Watch the following videos for a tutorial on installation and usage:
+ - [Part One](https://drive.google.com/file/d/1M6l11b6CkkLcyiRv-F7xCpUZ2NuWCEM6/view?usp=sharing)
+ - [Part Two](https://drive.google.com/file/d/186HTsVxWH6q41mVaF1mGIeMm9AkT8O82/view?usp=sharing)
  
 
 ## Questions?
